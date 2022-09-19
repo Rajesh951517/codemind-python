@@ -1,14 +1,13 @@
-a=int(input())
-b=int(input())
-pfs_a=0
-for i in range(1,a):
-    if a%i==0:
-        pfs_a+=i
-pfs_b=0
-for i in range(1,b):
-    if b%i==0:
-        pfs_b+=i
-if pfs_a==b and pfs_b==a:
+x=int(input())
+y=int(input())
+a=0
+b=0
+for i in range(1,x):
+    if x%i==0:
+        a+=i
+for j in range(1,y):
+    if y%j==0:
+        b+=j
+if a==y and b==x:
     print("Amicable")
-else:
-    print("Not Amicable")
+else:print("Not Amicable")
