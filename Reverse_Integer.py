@@ -1,4 +1,7 @@
 a=input()
-s=str=" -"
+s=str= ''
 for i in a:
-    if 
+    if i=="-":
+        s=i
+    else:str=i+str
+print(int((s+str)))
