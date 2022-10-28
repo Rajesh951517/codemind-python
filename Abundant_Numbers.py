@@ -1,6 +1,8 @@
 n=int(input())
-s=0
+c=0
 for i in range(1,n):
     if n%i==0:
-        s+=i
-print(s>n)
+        c+=i
+if c>n:
+    print('True')
+else:print('False')
